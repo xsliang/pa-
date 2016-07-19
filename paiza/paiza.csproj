@@ -42,15 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D002.cs" />
-    <Compile Include="D003.cs" />
-    <Compile Include="D004.cs" />
-    <Compile Include="D005.cs" />
-    <Compile Include="D006.cs" />
-    <Compile Include="D007.cs" />
-    <Compile Include="D008.cs" />
-    <Compile Include="D009.cs" />
-    <Compile Include="D010.cs" />
+    <Compile Include="D\D002.cs" />
+    <Compile Include="D\D003.cs" />
+    <Compile Include="D\D004.cs" />
+    <Compile Include="D\D005.cs" />
+    <Compile Include="D\D006.cs" />
+    <Compile Include="D\D007.cs" />
+    <Compile Include="D\D008.cs" />
+    <Compile Include="D\D009.cs" />
+    <Compile Include="D\D010.cs" />
+    <Compile Include="D\D011.cs" />
+    <Compile Include="D\D012.cs" />
+    <Compile Include="D\D013.cs" />
+    <Compile Include="D\D054.cs" />
+    <Compile Include="D\D041.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
