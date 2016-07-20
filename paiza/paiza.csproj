@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="D025.cs" />
+    <Compile Include="D029.cs" />
     <Compile Include="D\D002.cs" />
     <Compile Include="D\D003.cs" />
     <Compile Include="D\D004.cs" />
@@ -54,12 +56,29 @@
     <Compile Include="D\D011.cs" />
     <Compile Include="D\D012.cs" />
     <Compile Include="D\D013.cs" />
+    <Compile Include="D\D015.cs" />
+    <Compile Include="D\D016.cs" />
+    <Compile Include="D\D017.cs" />
+    <Compile Include="D\D021.cs" />
+    <Compile Include="D\D019.cs" />
+    <Compile Include="D\D022.cs" />
+    <Compile Include="D\D023.cs" />
+    <Compile Include="D\D024.cs" />
+    <Compile Include="D\D026.cs" />
+    <Compile Include="D\D027.cs" />
+    <Compile Include="D\D028.cs" />
     <Compile Include="D\D054.cs" />
     <Compile Include="D\D041.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="A\" />
+    <Folder Include="B\" />
+    <Folder Include="C\" />
+    <Folder Include="S\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
