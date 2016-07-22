@@ -1,12 +1,12 @@
-﻿// D003:掛け算のリスト
-// ある正の整数nが入力されます。
-// 正の整数1から9に整数nをそれぞれを掛けた数を半角スペース区切りで出力して下さい。
+﻿//D003: list of multiplication
+//A positive integer n is entered.
+//Positive integers from 1 to 9 integer n to find out the number multiplied by each separated by spaces.
 
-// 例えばn=2の場合
+//For example if n = 2.
 
-//    2 4 6 8 10 12 14 16 18 
+//2 4 6 8 10 12 14 16 18
 
-// となります 
+//And will be
 
 
 using System;
@@ -14,8 +14,6 @@ public class D003
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         var line = System.Console.ReadLine();
         try
         {

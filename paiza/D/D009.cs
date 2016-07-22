@@ -19,8 +19,6 @@ public class D009
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         try
         {
             var a = System.Console.ReadLine();

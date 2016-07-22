@@ -15,8 +15,6 @@ public class D005
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         var line = System.Console.ReadLine();
         string[] aryLine = line.Split(' ');
         if (Convert.ToInt32(aryLine[0]) >= 1 && Convert.ToInt32(aryLine[0]) <= 100 &&

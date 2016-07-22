@@ -13,9 +13,6 @@ public class Hello
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
-
         try
         {
             var n = System.Console.ReadLine();

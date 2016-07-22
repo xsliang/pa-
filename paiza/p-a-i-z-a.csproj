@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D025.cs" />
-    <Compile Include="D029.cs" />
+    <Compile Include="D\D025.cs" />
+    <Compile Include="D\D029.cs" />
     <Compile Include="D\D002.cs" />
     <Compile Include="D\D003.cs" />
     <Compile Include="D\D004.cs" />
@@ -67,6 +67,9 @@
     <Compile Include="D\D026.cs" />
     <Compile Include="D\D027.cs" />
     <Compile Include="D\D028.cs" />
+    <Compile Include="D\D031.cs" />
+    <Compile Include="D\D032.cs" />
+    <Compile Include="D\D033.cs" />
     <Compile Include="D\D054.cs" />
     <Compile Include="D\D041.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

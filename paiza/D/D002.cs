@@ -1,16 +1,14 @@
-﻿// D002:数の比較
+﻿// D002: comparison of the number of
 
-// ある正の整数aとbがスペース区切りで入力されます。
+//The positive integers a and b are entered separated by spaces.
 
-// aとbを比較し大きい方の値を出力して下さい。aとbが同じ場合は「eq」と出力して下さい。
+//compare a and b, please print the value whichever is greater.find out the "eq" and if a and b are the same.
 
 using System;
 public class D002
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         try
         {
             var line = System.Console.ReadLine();
