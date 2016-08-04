@@ -23,8 +23,6 @@ public class D026
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         int count = 0;
         for (int i = 0; i < 7; i++)
         {

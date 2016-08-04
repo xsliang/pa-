@@ -25,8 +25,6 @@ public class D017
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         List<int> input = new List<int>();
         for (int i = 0; i < 5; i++)
         {

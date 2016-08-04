@@ -14,14 +14,11 @@
 //    OK
 
 
-
 using System;
 public class D041
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         var line = System.Console.ReadLine();
         if (line.Split(' ').Length == 3)
         {

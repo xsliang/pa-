@@ -9,8 +9,6 @@ public class D021
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         var s = System.Console.ReadLine();
         var t = System.Console.ReadLine();
         if (s.Length >= 1 && s.Length <= 10 &&

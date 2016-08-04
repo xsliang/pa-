@@ -8,8 +8,6 @@ public class D023
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         var line = System.Console.ReadLine();
         int count = 0;
         if (line.Length >= 1 && line.Length <= 100)

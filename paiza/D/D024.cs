@@ -18,8 +18,6 @@ public class D024
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         var line1 = System.Console.ReadLine();
         var line2 = System.Console.ReadLine();
         if (Convert.ToInt32(line1) >= 1 && Convert.ToInt32(line1) <= 179 &&

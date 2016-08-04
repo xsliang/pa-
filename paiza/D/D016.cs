@@ -20,8 +20,6 @@ public class D016
 {
     public static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         var line1 = System.Console.ReadLine();
         var line2 = System.Console.ReadLine();
         if (line1.Length >= 1 && line1.Length <= 100 &&

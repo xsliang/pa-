@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="C\C005.cs" />
     <Compile Include="D\D025.cs" />
     <Compile Include="D\D029.cs" />
     <Compile Include="D\D002.cs" />
@@ -70,7 +71,17 @@
     <Compile Include="D\D031.cs" />
     <Compile Include="D\D032.cs" />
     <Compile Include="D\D033.cs" />
-    <Compile Include="D\D054.cs" />
+    <Compile Include="D\D034.cs" />
+    <Compile Include="D\D035.cs" />
+    <Compile Include="D\D036.cs" />
+    <Compile Include="D\D037.cs" />
+    <Compile Include="D\D038.cs" />
+    <Compile Include="D\D039.cs" />
+    <Compile Include="D\D040.cs" />
+    <Compile Include="D\D042.cs" />
+    <Compile Include="D\D043.cs" />
+    <Compile Include="D\D044.cs" />
+    <Compile Include="D\D045.cs" />
     <Compile Include="D\D041.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -80,7 +91,6 @@
   <ItemGroup>
     <Folder Include="A\" />
     <Folder Include="B\" />
-    <Folder Include="C\" />
     <Folder Include="S\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
