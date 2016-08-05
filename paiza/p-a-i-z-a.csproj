@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="C\C005.cs" />
+    <Compile Include="C\C006.cs" />
+    <Compile Include="C\C008.cs" />
     <Compile Include="D\D025.cs" />
     <Compile Include="D\D029.cs" />
     <Compile Include="D\D002.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="D\D044.cs" />
     <Compile Include="D\D045.cs" />
     <Compile Include="D\D041.cs" />
+    <Compile Include="D\D046.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
