@@ -45,6 +45,13 @@
     <Compile Include="C\C005.cs" />
     <Compile Include="C\C006.cs" />
     <Compile Include="C\C008.cs" />
+    <Compile Include="C\C010.cs" />
+    <Compile Include="C\C013.cs" />
+    <Compile Include="C\C014.cs" />
+    <Compile Include="C\C015.cs" />
+    <Compile Include="C\C016.cs" />
+    <Compile Include="C\C017.cs" />
+    <Compile Include="C\C018.cs" />
     <Compile Include="D\D025.cs" />
     <Compile Include="D\D029.cs" />
     <Compile Include="D\D002.cs" />
