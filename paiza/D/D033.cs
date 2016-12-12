@@ -12,7 +12,7 @@
 //    P.T
 
 using System;
-public class Hello
+public class D033
 {
     public static void Main()
     {
