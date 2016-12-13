@@ -94,6 +94,9 @@
     <Compile Include="D\D044.cs" />
     <Compile Include="D\D045.cs" />
     <Compile Include="D\D046.cs" />
+    <Compile Include="D\D047.cs" />
+    <Compile Include="D\D048.cs" />
+    <Compile Include="D\D049.cs" />
     <Compile Include="D\D054.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
