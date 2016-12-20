@@ -97,15 +97,43 @@
     <Compile Include="D\D047.cs" />
     <Compile Include="D\D048.cs" />
     <Compile Include="D\D049.cs" />
+    <Compile Include="D\D050.cs" />
+    <Compile Include="D\D051.cs" />
+    <Compile Include="D\D052.cs" />
+    <Compile Include="D\D053.cs" />
     <Compile Include="D\D054.cs" />
+    <Compile Include="D\D055.cs" />
+    <Compile Include="D\D056.cs" />
+    <Compile Include="D\D057.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="poh\ando\ando19.cs" />
+    <Compile Include="poh\ando\ando20.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\paiza.exe.config" />
+    <None Include="bin\Debug\paiza.vshost.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\paiza.csprojResolveAssemblyReference.cache" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="A\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="S\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\paiza.exe" />
+    <Content Include="bin\Debug\paiza.pdb" />
+    <Content Include="bin\Debug\paiza.vshost.exe" />
+    <Content Include="obj\Debug\azipa.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\p-a-i-z-a.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\paiza.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\paiza.exe" />
+    <Content Include="obj\Debug\paiza.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
