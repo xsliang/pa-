@@ -24,7 +24,7 @@
 //最後は改行し、余計な文字、空行を含んではいけません。
 
 using System;
-public class Hello
+public class ando20
 {
     public static void Main()
     {
