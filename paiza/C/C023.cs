@@ -17,7 +17,7 @@
 
 using System;
 using System.Collections.Generic;
-public class Hello
+public class C023
 {
     public static void Main()
     {

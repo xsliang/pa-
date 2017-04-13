@@ -56,6 +56,7 @@
     <Compile Include="C\C018.cs" />
     <Compile Include="C\C019.cs" />
     <Compile Include="C\C023.cs" />
+    <Compile Include="C\C024.cs" />
     <Compile Include="D\D002.cs" />
     <Compile Include="D\D003.cs" />
     <Compile Include="D\D004.cs" />
@@ -113,6 +114,7 @@
     <Compile Include="D\D061.cs" />
     <Compile Include="D\D062.cs" />
     <Compile Include="D\D063.cs" />
+    <Compile Include="D\D064.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
