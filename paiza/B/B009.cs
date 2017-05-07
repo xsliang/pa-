@@ -1,0 +1,146 @@
+﻿// あなたは、とある勉強会の主催者です。 発表者を募ったところN 人の有志が集まったため、
+//それぞれの発表者の持ち時間と発表順序を決めました。
+//あとは、以下のルールを用いて当日のタイムテーブルを作成するだけです。
+
+//    1. 10:00に1人目のトークを始めます。
+//    2. 現在のトークが終了し10分休憩の後、次のトークを始めます。
+//    3. すべての発表者のトークが終了するまで2.を繰り返します。
+
+
+//ただし、次のような例外ルールが存在します。
+
+//発表予定者のトーク終了予定時刻（現在の発表者の終了時刻 + 10分休憩 + 次の発表者の持ち時間）が12:01 以降になる場合においては、現在のトークが終了後、10分休憩の代わりに1時間のお昼休憩を一度だけとります。
+
+//例：jobsさんが45分、gatesさんが60分、larryさんが15分のトークをするタイムテーブル
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace paiza.B
+{
+    using System;
+    using System.Collections.Generic;
+
+    public class B009
+    {
+        public static void Main()
+        {
+            // 自分の得意な言語で
+            // Let's チャレンジ！！   
+            try
+            {
+                var line = System.Console.ReadLine();
+                string temp = "abcdefghijklmnopqrstuvwxyz";
+                int N = Convert.ToInt32(line);
+                if (N < 1 || N > 10)
+                {
+                    return;
+                }
+                string lasttime = "10:00";
+
+                List<string> result = new List<string>();
+                List<string> inputs = new List<string>();
+
+                for (int i = 0; i < N; i++)
+                {
+                    var line2 = System.Console.ReadLine();
+                    string name = line2.Split(' ')[0];
+                    if (name.Length > 10 || name.Length < 1)
+                    {
+                        return;
+                    }
+                    foreach (var item in name)
+                    {
+                        if (temp.Contains(item.ToString()) == false)
+                        {
+                            return;
+                        }
+                    }
+                    int time = Convert.ToInt32(line2.Split(' ')[1]);
+                    if (time > 60 || time < 1)
+                    {
+                        return;
+                    }
+
+                    inputs.Add(line2);
+
+                }
+
+                for (int i = 0; i < N; i++)
+                {
+                    string begin = lasttime;
+                    int hours = Convert.ToInt32(lasttime.Split(':')[0]);
+                    int min = Convert.ToInt32(lasttime.Split(':')[1]);
+
+                    string input = inputs[i];
+                    string name = input.Split(' ')[0];
+                    int time = Convert.ToInt32(input.Split(' ')[1]);
+
+                    if (min + time >= 60)
+                    {
+                        hours = hours + 1;
+                        min = min + time - 60;
+                    }
+                    else
+                    {
+                        min = min + time;
+                    }
+
+                    lasttime = hours + ":" + min.ToString("00");
+
+                    result.Add(begin + " - " + lasttime + " " + name);
+
+                    //have a rest
+                    if (N != i + 1)
+                    {
+                        int next = Convert.ToInt32(inputs[i + 1].Split(' ')[1]);
+                        if (min + 10 + next > 60 && hours + 1 == 12)
+                        {
+                            hours = hours + 1;
+                        }
+                        else
+                        {
+                            if (min + 10 >= 60)
+                            {
+                                hours = hours + 1;
+                                min = min + 10 - 60;
+                            }
+                            else
+                            {
+                                min = min + 10;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (min + 10 >= 60)
+                        {
+                            hours = hours + 1;
+                            min = min + 10 - 60;
+                        }
+                        else
+                        {
+                            min = min + 10;
+                        }
+                    }
+
+                    lasttime = hours + ":" + min.ToString("00");
+                }
+
+                foreach (var item in result)
+                {
+                    System.Console.WriteLine(item);
+                }
+            }
+            catch
+            {
+            }
+
+        }
+    }
+
+
+}
