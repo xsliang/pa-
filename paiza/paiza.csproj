@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="B\B004.cs" />
+    <Compile Include="B\B006.cs" />
     <Compile Include="B\B008.cs" />
     <Compile Include="B\B012.cs" />
     <Compile Include="C\C005.cs" />
