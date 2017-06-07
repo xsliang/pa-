@@ -61,6 +61,7 @@
     <Compile Include="C\C023.cs" />
     <Compile Include="C\C024.cs" />
     <Compile Include="C\C025.cs" />
+    <Compile Include="C\C026.cs" />
     <Compile Include="D\D002.cs" />
     <Compile Include="D\D003.cs" />
     <Compile Include="D\D004.cs" />
