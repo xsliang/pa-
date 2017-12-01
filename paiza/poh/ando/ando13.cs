@@ -122,7 +122,7 @@ namespace paiza.poh.ando
 
         //}
 
-        public static void Main()
+        public void Main()
         {
             //版本一
             //标准的计算阶乘 只计算后9位 结尾非零
@@ -144,8 +144,6 @@ namespace paiza.poh.ando
                 //for (int a = 1; a <= tempN; a++)
                 //{
                 //    N = a;
-
-
                 int arrayLength = 20;
 
                 int[] tempResultA = new int[arrayLength];
