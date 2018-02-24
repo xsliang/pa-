@@ -66,6 +66,7 @@
     <Compile Include="C\C026.cs" />
     <Compile Include="C\C028.cs" />
     <Compile Include="C\C029.cs" />
+    <Compile Include="C\C030.cs" />
     <Compile Include="C\C031.cs" />
     <Compile Include="D\D002.cs" />
     <Compile Include="D\D003.cs" />
@@ -143,6 +144,10 @@
     <Compile Include="D\D080.cs" />
     <Compile Include="D\D081.cs" />
     <Compile Include="D\D082.cs" />
+    <Compile Include="D\D083.cs" />
+    <Compile Include="D\D084.cs" />
+    <Compile Include="D\D086.cs" />
+    <Compile Include="D\D087.cs" />
     <Compile Include="D\D088.cs" />
     <Compile Include="D\D089.cs" />
     <Compile Include="D\D090.cs" />
