@@ -1,23 +1,9 @@
-﻿// D035:日付のデータ
-
-//スペース区切りで西暦 y 、月 m 、日 d が入力されます。
-
-//"/" 区切りで文字列として出力して下さい。
-
-//例えば
-
-//    2016 2 12
-
-//と入力された場合
-
-//    2016/2/12
-
-//と出力して下さい。
+﻿
 
 using System;
 public class D035
 {
-    public static void Main()
+    public static void D035Main()
     {
         try
         {

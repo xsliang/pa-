@@ -1,8 +1,5 @@
-﻿//using System;
-//あなたは本を読んでいたところ、残り何ページか知りたくなりました。
-
-//本の総ページ数 m と読み終えたページ n が入力されるので、残りのページ数を表示してください。
-
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +9,7 @@ namespace paiza.D
 {
     class D070
     {
-        public static void Main()
+        public static void D070Main()
         {
             try
             {

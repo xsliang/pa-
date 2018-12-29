@@ -1,9 +1,4 @@
-﻿//あなたはソーシャルゲームで遊んでいます。
-
-//ステージに挑戦するためにスタミナと呼ばれる数値を m 消費します。
-
-//あなたの現在のスタミナ n が与えられるので、ステージに挑戦可能であれば挑戦した後のスタミナの数値、挑戦が不可能な場合は "No" を出力してください。
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +9,8 @@ namespace paiza.D
 {
     class D066
     {
-        public static void Main()
+        public static void D066Main()
         {
-            // 自分の得意な言語で
-            // Let's チャレンジ！！
             var line = System.Console.ReadLine();
             try
             {

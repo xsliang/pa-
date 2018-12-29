@@ -8,7 +8,7 @@ namespace paiza.D
 {
     class D074
     {
-        public static void Main()
+        public static void D074Main()
         {
             try
             {

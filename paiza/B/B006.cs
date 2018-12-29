@@ -4,11 +4,8 @@ namespace paiza.B
 {
     public class B006
     {
-        public static void Main()
+        public static void B006Main()
         {
-            // 自分の得意な言語で
-            // Let's チャレンジ！！
-
             try
             {
                 var line = System.Console.ReadLine();

@@ -1,9 +1,4 @@
-﻿//あなたは PAIZA 大学の 7 科目からなる入学試験を受けました。
-
-//7 つの科目はすべて 100 点満点のテストで、平均点が合格点以上なら合格します。
-
-//あなたの 7 科目それぞれの点数と合格点が与えられるので、合格する場合は"pass"を、不合格の場合は"failure"を出力してください。
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +9,7 @@ namespace paiza.D
 {
     class D078
     {
-        public static void Main()
+        public static void D078Main()
         {
             try
             {

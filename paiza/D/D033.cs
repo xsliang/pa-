@@ -1,20 +1,9 @@
-﻿// D033:頭文字
-
-//あなたは半角アルファベットの苗字と名前からそれぞれ 1文字目を取りイニシャルを作ることにしました。
-//半角スペース区切りで苗字と名前が入力されるので、1文字目を取り "." (半角ドット)で区切った文字列を出力してください。
-
-//例えば以下の様な入力の場合
-
-//    Paiza Tarou
-
-//以下の様に出力してください
-
-//    P.T
+﻿
 
 using System;
 public class D033
 {
-    public static void Main()
+    public static void D033Main()
     {
         var line = System.Console.ReadLine();
         var ary = line.Split(' ');

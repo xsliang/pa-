@@ -1,10 +1,4 @@
-﻿//あなたは霧島京子たちが通うパイザ女学院の用務員として、校舎に備え付けのエレベーターを管理しています。
-//エレベーターが一定の距離を動くと、定期点検をしなければなりません。
-//エレベーターの動きのログをもとに、エレベーターが何階分の距離を動いたか計算するプログラムを完成させてください。
-//ただし、エレベーターは最初は必ず 1 階にいるものとします。
-
-//以下は入力例 1 を図で表したものです。
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +9,7 @@ namespace paiza.C
 {
     class C047
     {
-        public static void Main()
+        public static void C047Main()
         {
             var line = System.Console.ReadLine();
             int N = Convert.ToInt32(line);

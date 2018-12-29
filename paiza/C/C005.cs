@@ -1,27 +1,10 @@
-﻿// C005:アドレス調査
-
-//あなたはあるソフトウェアの開発でIPアドレスを入力してもらう機能の一部を開発しています。
-//入力は手入力で「.」と「数字」で構成された長さNの文字列が入力されます。
-
-//入力されているIPアドレスが書式に合っているか判定して、合っていればTrue、
-//違っていればFalseと標準出力で出力するプログラムを作成してください。
-
-//判別すべきIPアドレスはIPv4で定義された範囲のIPアドレスとします。書式は以下のようになります。
-
-//    .で区切られた10進数の4つの数で表されます。
-//    数の範囲は0から255までとします。
-
-//    例:
-//    100.23.103.20
-//    123.11.22.33
-//    14.33.103.20
-//    102.233.13.2
+﻿
 
 using System;
 using System.Collections.Generic;
 public class C005
 {
-    public static void Main()
+    public static void C005Main()
     {
         var line = System.Console.ReadLine();
         if (Convert.ToInt32(line) >= 1 && Convert.ToInt32(line) <= 100)

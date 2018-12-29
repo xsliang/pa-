@@ -1,23 +1,9 @@
-﻿// D009:西暦の計算
-
-//2つの西暦 a, b が半角スペース区切りの整数で入力されます。
-
-//a から b が何年間あるか出力してください。
-
-//例えば
-
-//    1990 2014
-
-//と入力された場合
-
-//    24
-
-//と出力してください。 
+﻿
 
 using System;
 public class D009
 {
-    public static void Main()
+    public static void D009Main()
     {
         try
         {

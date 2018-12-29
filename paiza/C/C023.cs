@@ -1,29 +1,11 @@
-﻿//今日は PAIZA 6 というくじの当選番号の公表日です。
-
-//PAIZA 6 の購入者は 1 から 100 までの好きな数字を 6 つ選びます。
-//抽選では同様に 6 つの当選番号が発表され、購入したくじの数字と一致していた数字の数に応じて賞金が当たります。
-
-//あなたは、先日 N 枚のくじを購入しました。
-//プログラマーであるあなたは、N 枚の宝くじそれぞれについて、 当選番号と一致した数字の数について調べるプログラムを書くことにしました。
-
-//ここで、くじの購入例を見てみましょう。
-
-//すべてのテストケースで以下の条件を満たします。
-
-//・1 ≦ N ≦ 100
-//・1 ≦ a_i, b_i, c_i, d_i, e_i, f_i ≦ 100
-
-//a_i, b_i, c_i, d_i, e_i, f_i(0 ≦ i ≦ n) は全て異なる整数
+﻿
 
 using System;
 using System.Collections.Generic;
 public class C023
 {
-    public static void Main()
+    public static void C023Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
-
         try
         {
             var line0 = System.Console.ReadLine();

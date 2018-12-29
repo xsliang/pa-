@@ -1,20 +1,9 @@
-﻿// D045:通知票
-
-//paiza 中学校ではこれまで 5 ~ 1 の数字で成績をつけていましたが、英語教育に力を入れるため今年度から A ~E のアルファベットで成績をつけることにしました。
-//すでに成績を数字でつけてしまったあなたはあわててアルファベットに変換することにしました。
-
-//例)
-//変換前 -> 変換後
-//5 -> A
-//3 -> C
-//2 -> D
-//4 -> B
-//1 -> E 
+﻿
 
 using System;
 public class D045
 {
-    public static void Main()
+    public static void D045Main()
     {
         var line = System.Console.ReadLine();
         if (Convert.ToInt32(line) >= 1 && Convert.ToInt32(line) <= 5)

@@ -1,12 +1,8 @@
-﻿// D023:Aの個数
-
-//半角アルファベットで構成された文字列 s が与えられます。
-
-//s に含まれる半角アルファベット 「A」 の数を出力して下さい。
+﻿
 
 public class D023
 {
-    public static void Main()
+    public static void D023Main()
     {
         var line = System.Console.ReadLine();
         int count = 0;

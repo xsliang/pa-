@@ -1,14 +1,4 @@
-﻿//あなたは会社のお花見の場所取り係を任されました。なるべく良い場所を確保するため他の人より早く会場に到着したいところです。
-
-//あなた以外の 5 人の到着する時刻(分) の情報とあなたの計画する到着予定時刻(分) が与えられるので、このとき 6 人の中であなたが何番目に到着するかを求めてください。
-
-//例)
-
-//他の人の到着時刻: 0, 10, 23, 35, 57
-
-//あなたの到着時刻: 29
-
-//→ 0, 10, 23 の人に続いて 4 番目に到着
+﻿
 
 using System;
 using System.Collections.Generic;
@@ -21,10 +11,10 @@ namespace paiza.D
     using System;
     public class D063
     {
-        public static void Main()
+        public static void D063Main()
         {
-            // 自分の得意な言語で
-            // Let's チャレンジ！！
+            
+            
             var line = System.Console.ReadLine();
             var line2 = System.Console.ReadLine();
             try

@@ -1,21 +1,12 @@
-﻿// D043:天気の表示
-
-//あなたは 0 % 〜 100 % 降水確率の数値を得て、その数値から天気を文字列で表示をしようと考えました。
-//表示のルールは以下のよう定めました。
-
-//・降水確率が 0 % 以上 30 % 以下ならば "sunny"
-//・降水確率が 31 % 以上 70 % 以下ならば "cloudy"
-//・降水確率が 71 % 以上ならば "rainy"
-
-//降水確率 n(%) が与えられるので上のルールに従って文字列を出力して下さい。
+﻿
 
 using System;
 public class D043
 {
-    public static void Main()
+    public static void D043Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
+        
+        
         var line = System.Console.ReadLine();
         try
         {

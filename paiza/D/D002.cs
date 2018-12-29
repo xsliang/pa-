@@ -7,7 +7,7 @@
 using System;
 public class D002
 {
-    public static void Main()
+    public static void D002Main()
     {
         try
         {

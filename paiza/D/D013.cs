@@ -1,13 +1,9 @@
-﻿// D013:割り算
-
-//整数 m と n 与えられます。
-
-//m を n で割り算した商と余りを出力して下さい。
+﻿
 
 using System;
 public class D013
 {
-    public static void Main()
+    public static void D013Main()
     {
         var line = System.Console.ReadLine();
         if (Convert.ToInt32(line.Split(' ')[0]) >= 1 && Convert.ToInt32(line.Split(' ')[0]) <= 100 &&

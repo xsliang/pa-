@@ -1,8 +1,4 @@
-﻿//あなたはスイッチの状態を表示するプログラムを作成しています。
-//そのスイッチは1度押すと "ON" と "OFF" が切り替わります。
-
-//スイッチの初期状態は "OFF" でスイッチを押した回数 n が入力されるので n 回スイッチが押された後の状態を出力してください。
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,10 +9,8 @@ namespace paiza.D
 {
     class D067
     {
-        public static void Main()
+        public static void D067Main()
         {
-            // 自分の得意な言語で
-            // Let's チャレンジ！！
             var line = System.Console.ReadLine();
             try
             {

@@ -9,7 +9,7 @@ namespace paiza.D
 {
     class D087
     {
-        public static void Main()
+        public static void D087Main()
         {
             var line = System.Console.ReadLine();
             int count = Convert.ToInt32(line);

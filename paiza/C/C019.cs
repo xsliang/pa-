@@ -1,15 +1,4 @@
-﻿//N を 2 以上の整数とし、N の約数のうち N 自身を除いたものの和を S とします。 このとき
-
-//・N = S となるような N を完全数
-//・|N-S| = 1 となるような N をほぼ完全数
-
-//と言うことにしましょう。ここで、|N-S| は N-S の絶対値を意味します。
-
-//たとえば、N = 28 のとき、28 の約数は 1, 2, 4, 7, 14, 28 なので、S = 1+2+4+7+14 = 28 となります。従って、28 は完全数です。
-//また、N = 16 のときには S = 1 + 2 + 4 + 8 = 15 となるので、16 はほぼ完全数です。
-
-//入力された整数が完全数かほぼ完全数かそのいずれでもないかを判定するプログラムを作成してください。
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,10 +11,10 @@ namespace paiza.C
     using System.Collections.Generic;
     public class C019
     {
-        public static void Main()
+        public static void C019Main()
         {
-            // 自分の得意な言語で
-            // Let's チャレンジ！！
+            
+            
 
             try
             {

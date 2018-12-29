@@ -2,7 +2,7 @@
 using System;
 public class D005
 {
-    public static void Main()
+    public static void D005Main()
     {
         var line = System.Console.ReadLine();
         string[] aryLine = line.Split(' ');

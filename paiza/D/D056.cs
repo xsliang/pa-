@@ -1,10 +1,4 @@
-﻿//今日は大雪、子どもたちはかまくらをつくろうとはしゃいでいます。どれだけの体積の雪が必要かを計算してあげましょう。
-
-//かまくらは 1 辺が r1(m) の立方体から r2(m) の立方体分をくり抜く形でつくります(以下の図参照)。このときかまくらの体積(m^3)は
-
-//r1^3 - r2^3
-
-//で求められます。
+﻿
 
 using System;
 using System.Collections.Generic;
@@ -17,10 +11,10 @@ namespace paiza.D
     using System;
     public class D056
     {
-        public static void Main()
+        public static void D056Main()
         {
-            // 自分の得意な言語で
-            // Let's チャレンジ！！
+            
+            
             var line = System.Console.ReadLine();
             try
             {

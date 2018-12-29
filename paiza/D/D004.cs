@@ -1,8 +1,8 @@
 
 using System;
-public class Hello
+public class D004
 {
-    public static void Main()
+    public static void D004Main()
     {
         try
         {

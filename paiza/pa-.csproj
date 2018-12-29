@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="A\A003.cs" />
     <Compile Include="B\B004.cs" />
     <Compile Include="B\B006.cs" />
     <Compile Include="B\B008.cs" />
@@ -174,7 +175,6 @@
     <None Include="obj\Debug\paiza.csprojResolveAssemblyReference.cache" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="A\" />
     <Folder Include="bin\Release\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="S\" />

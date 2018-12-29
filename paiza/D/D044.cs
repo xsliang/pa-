@@ -1,14 +1,11 @@
-﻿//はじめましてのあいさつをしましょう。
-
-//名前が文字列 s1 で、性別が文字列 s2(男性は "M", 女性は "F") で与えられます。
-//これに対し、男性なら "Hi, Mr. 〇〇(名前)" と、女性なら "Hi, Ms. 〇〇(名前)" と返してください。
+﻿
 
 public class D044
 {
-    public static void Main()
+    public static void D044Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
+        
+        
         var line = System.Console.ReadLine();
         try
         {

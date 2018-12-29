@@ -12,7 +12,7 @@
 using System;
 public class D003
 {
-    public static void Main()
+    public static void D003Main()
     {
         var line = System.Console.ReadLine();
         try

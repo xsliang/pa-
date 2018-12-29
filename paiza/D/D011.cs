@@ -1,24 +1,8 @@
-﻿// D011:アルファベットで何番目
-
-//以下のような A〜Z(半角英字大文字) の中から1文字入力されます。
-
-//    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-//A を 1番目としてアルファベット順で何番目かを出力して下さい。
-
-//例えば
-
-//    C
-
-//のような入力の場合
-
-//    3
-
-//と出力して下さい。
+﻿
 
 public class D011
 {
-    public static void Main()
+    public static void D011Main()
     {
         var line = System.Console.ReadLine();
         string test = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

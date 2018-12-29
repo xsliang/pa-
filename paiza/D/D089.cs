@@ -10,7 +10,7 @@ namespace paiza.D
 {
     class D089
     {
-        public static void Main()
+        public static void D089Main()
         {
             var line = System.Console.ReadLine();
 

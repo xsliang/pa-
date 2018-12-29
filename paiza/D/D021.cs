@@ -1,13 +1,9 @@
-﻿// D021:文字列の一致
-
-//長さが n の文字列 S と長さが m の文字列 T が改行区切りで入力されます。
-
-//S と T が完全一致していれば「Yes」、それ以外は「No」と出力するプログラムを作成してください。
+﻿
 
 using System;
 public class D021
 {
-    public static void Main()
+    public static void D021Main()
     {
         var s = System.Console.ReadLine();
         var t = System.Console.ReadLine();

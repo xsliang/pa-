@@ -1,23 +1,10 @@
-﻿// C016:Leet文字列
-
-//Leet と呼ばれるインターネットスラングがあります。
-//Leet ではいくつかのアルファベットをよく似た形の他の文字に置き換えて表記します。 Leet の置き換え規則はたくさんありますが、ここでは次の置き換え規則のみを考えましょう。
-//置き換え前 置き換え後
-//A 	4
-//E 	3
-//G 	6
-//I 	1
-//O 	0
-//S 	5
-//Z 	2
-//文字列が入力されるので、これを Leet に変換して出力するプログラムを書いてください。
-
+﻿
 public class C016
 {
-    public static void Main()
+    public static void C016Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
+        
+        
         var line = System.Console.ReadLine();
         string test = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         if (line.Length >= 1 && line.Length <= 100)

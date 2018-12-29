@@ -1,12 +1,4 @@
-﻿//あなたはあるワインの銘柄のマーケティングを担当しています。良いキャッチコピーを考えるため、とりあえず「〜の中で最高」というフレーズを色々作ってみることにしました。
-
-//2 つの文字列が与えられるので、"Best in" とそれらの文字列をすべて半角スペース区切りで結合して出力してください。
-
-//例)
-
-//hundred years → Best in hundred years
-
-//the universe → Best in the universe
+﻿
 
 using System;
 using System.Collections.Generic;
@@ -18,10 +10,10 @@ namespace paiza.D
 {
     public class D055
     {
-        public static void Main()
+        public static void D055Main()
         {
-            // 自分の得意な言語で
-            // Let's チャレンジ！！
+            
+            
             var line = System.Console.ReadLine();
             string abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
             try

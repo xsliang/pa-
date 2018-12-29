@@ -35,10 +35,10 @@
 using System;
 public class B008
 {
-    public static void Main()
+    public static void B008Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
+        
+        
         var line = System.Console.ReadLine();
         try
         {

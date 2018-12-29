@@ -1,21 +1,9 @@
-﻿// D012:絶対値を求めよ
-
-//-100から100までの整数 n が与えられるので、絶対値を出力して下さい。
-
-//例えば
-
-//    -10
-
-//と入力された場合
-
-//    10
-
-//と出力して下さい。
+﻿
 
 using System;
 public class D012
 {
-    public static void Main()
+    public static void D012Main()
     {
         var line = System.Console.ReadLine();
         if (Convert.ToInt32(line) >= -100 && Convert.ToInt32(line) <= 100)

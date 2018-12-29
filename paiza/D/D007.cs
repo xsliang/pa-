@@ -1,17 +1,8 @@
-﻿// D007:N倍の文字列
-
-//正の整数 N が標準入力から入力されるので、N 個の「*」を繋げた文字列を出力するプログラムを作成しましょう。
-
-//例えば N = 3の場合
-
-//    ***
-
-//のように出力してください。
-
+﻿
 using System;
 public class D007
 {
-    public static void Main()
+    public static void D007Main()
     {
         var line = System.Console.ReadLine();
         if (Convert.ToInt32(line) >= 1 && Convert.ToInt32(line) <= 100)

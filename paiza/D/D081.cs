@@ -1,9 +1,4 @@
 ﻿
-//あなたは箱に入ったお菓子を家族 N 人で分けることにしました。
-
-//箱には縦に H 個、横に W 個の計 H × W 個のお菓子が入っていますが、N 人で均等にお菓子を分けた場合あまりが出る事があります。
-
-//N 人で均等にできるだけ多く分けた後のあまりのお菓子を出力してください。
 
 using System;
 using System.Collections.Generic;
@@ -15,10 +10,10 @@ namespace paiza.D
 {
     class D081
     {
-        public static void Main()
+        public static void D081Main()
         {
-            // 自分の得意な言語で
-            // Let's チャレンジ！！
+            
+            
 
             var line = System.Console.ReadLine();
             var line2 = System.Console.ReadLine();
