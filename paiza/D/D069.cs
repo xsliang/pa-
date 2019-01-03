@@ -35,7 +35,7 @@ namespace paiza.D
                 System.Console.WriteLine(temp3.ToString("#0.0"));
 
             }
-            catch (Exception ex)
+            catch
             {
             }
         }

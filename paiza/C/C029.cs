@@ -96,7 +96,7 @@ namespace paiza.C
 
                 System.Console.WriteLine(resultData + " " + (resultData + N - 1).ToString());
             }
-            catch (Exception ex)
+            catch
             {
             }
         }

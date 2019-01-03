@@ -6,8 +6,6 @@ public class Hello
 {
     private static int black = 0;
     private static int white = 0;
-    private bool blackBegin = false;
-    private bool whiteBegin = false;
 
     public static void A003()
     {

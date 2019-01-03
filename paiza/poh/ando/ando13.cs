@@ -279,7 +279,7 @@ namespace paiza.poh.ando
 
                 //File.WriteAllLines(@"c:\resultOld_2.txt", lstResult.ToArray());
             }
-            catch (Exception ex)
+            catch
             {
             }
         }

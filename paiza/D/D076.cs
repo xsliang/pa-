@@ -30,7 +30,7 @@ namespace paiza.D
                     }
                 }
             }
-            catch (Exception ex)
+            catch
             {
             }
         }

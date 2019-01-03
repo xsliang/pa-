@@ -27,7 +27,7 @@ namespace paiza.D
                     System.Console.WriteLine(intLine);
                 }
             }
-            catch (Exception ex)
+            catch
             {
             }
         }

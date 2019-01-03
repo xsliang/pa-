@@ -41,7 +41,7 @@ namespace paiza.D
                     System.Console.WriteLine("failure");
                 }
             }
-            catch (Exception ex)
+            catch
             {
             }
         }
