@@ -6,26 +6,22 @@ using System.Threading.Tasks;
 
 namespace paiza.D
 {
-    class D099
+    class D102
     {
-        public static void D099Main()
+        public static void D102Main()
         {
             try
             {
                 var line = System.Console.ReadLine();
-                if (line.Length >= 1 && line.Length <= 20)
+                int N = Convert.ToInt32(line);
+                if (N >= 1 && N <= 30)
                 {
-                    foreach (var item in line)
-                    {
-                        System.Console.WriteLine(item);
-                    }
+                    System.Console.WriteLine((100 + 10 * (N)).ToString());
                 }
             }
             catch
             {
             }
-
-
         }
     }
 }

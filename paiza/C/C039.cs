@@ -8,7 +8,7 @@ namespace paiza.C
 {
     class C039
     {
-        static void Main(string[] args)
+        static void C039Main(string[] args)
         {
             var line = System.Console.ReadLine();
             if (line.Length < 3 || line.Length > 100)
