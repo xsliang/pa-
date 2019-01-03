@@ -10,7 +10,7 @@ namespace paiza.D
     using System;
     public class D052
     {
-        public static void Main()
+        public static void D052Main()
         {
             
             
