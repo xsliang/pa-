@@ -8,65 +8,38 @@ namespace paiza.C
 {
     class C048
     {
-        static void C048Main()
+
+        public static double all = 0;
+
+        public static void C048Main()
         {
-            var line = System.Console.ReadLine();
-            int S = Convert.ToInt32(line.Split(' ')[0]);
-            int a = Convert.ToInt32(line.Split(' ')[1]);
-            int b = Convert.ToInt32(line.Split(' ')[2]);
-
-            if (S < 1 || S > 1000000 || a < 1 || a > 1000000 || b < 1 || b > 1000000)
+            try
             {
-                return;
+                var line = System.Console.ReadLine();
+                double X = Convert.ToDouble(line.Split(' ')[0]);
+                double P = Convert.ToDouble(line.Split(' ')[1]);
+                //double all = 0;
+                if (X >= 0 && X <= 10000 && P >= 1 && P <= 100)
+                {
+                    all = X;
+                    NewMethod(X, P);
+
+                    System.Console.WriteLine(all);
+                }
             }
-
-            bool isA = true;
-            string get = string.Empty;
-
-            int temp = S;
-            do
+            catch
             {
-                if (isA == true)
-                {
-                    if (a + 10 < S)
-                    {
-                        isA = false;
-                        continue;
-                    }
+            }
+        }
 
-                    if (a >= temp + 10)
-                    {
-                        temp = temp + 10;
-                        isA = false;
-                        get = "A";
-                    }
-                    else
-                    {
-                        get = "B";
-                        break;
-                    }
-
-
-                }
-                else
-                {
-                    if (b >= temp + 1000)
-                    {
-                        temp = temp + 1000;
-                        isA = true;
-                        get = "B";
-                    }
-                    else
-                    {
-                        get = "A";
-                        break;
-                    }
-
-
-                }
-            } while (a >= temp && b >= temp);
-
-            Console.WriteLine(get + " " + temp);
+        private static void NewMethod(double X, double P)
+        {
+            X = Math.Floor(X * ((100 - P) * 0.01));
+            if (X > 0)
+            {
+                all = all + X;
+                NewMethod(X, P);
+            }
         }
     }
 }
