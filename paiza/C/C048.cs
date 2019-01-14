@@ -8,7 +8,7 @@ namespace paiza.C
 {
     class C048
     {
-        static void C048Main(string[] args)
+        static void C048Main()
         {
             var line = System.Console.ReadLine();
             int S = Convert.ToInt32(line.Split(' ')[0]);

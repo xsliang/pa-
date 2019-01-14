@@ -8,7 +8,7 @@ namespace paiza.C
 {
     class C041
     {
-        static void Main(string[] args)
+        static void C041Main()
         {
             try
             {

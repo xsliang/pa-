@@ -8,7 +8,7 @@ namespace paiza.D
 {
     class D114
     {
-        static void D114Main(string[] args)
+        static void D114Main()
         {
             try
             {

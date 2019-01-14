@@ -9,7 +9,7 @@ namespace paiza.C
 {
     class C033
     {
-        static void C033Main(string[] args)
+        static void C033Main()
         {
             var line = System.Console.ReadLine();
             int N = Convert.ToInt32(line);

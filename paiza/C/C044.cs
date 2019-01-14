@@ -8,7 +8,7 @@ namespace paiza.C
 {
     class C044
     {
-        public static void Main()
+        public static void C044Main()
         {
             try
             {

@@ -9,7 +9,7 @@ namespace paiza.C
 {
     class C034
     {
-        static void C034Main(string[] args)
+        static void C034Main()
         {
             var line = System.Console.ReadLine();
 
