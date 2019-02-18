@@ -10,7 +10,7 @@ namespace paiza.S
 {
     class S015
     {
-        static void Main()
+        static void S015Main()
         {
             try
             {
