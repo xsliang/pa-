@@ -52,6 +52,7 @@
     <Compile Include="B\B012.cs" />
     <Compile Include="B\B029.cs" />
     <Compile Include="B\B038.cs" />
+    <Compile Include="B\B044.cs" />
     <Compile Include="B\B045.cs" />
     <Compile Include="C\C038.cs" />
     <Compile Include="C\C037.cs" />
