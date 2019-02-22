@@ -34,8 +34,6 @@ namespace paiza.B
 
                 string[,] inputArray = new string[H, W];
 
-                List<string> input = new List<string>();
-
                 const string pattern = "^[1-9]*$";
                 Regex rx = new Regex(pattern);
 
@@ -89,10 +87,7 @@ namespace paiza.B
                             return;
                         }
                     }
-                    input.Add(temp);
                 }
-
-                List<string> redArea = new List<string>();
 
                 foreach (var item in NumberCount)
                 {
@@ -106,10 +101,20 @@ namespace paiza.B
                         NewMethod(H, W, inputArray, x, y, MyEnum.up, number);
                     }
 
+                    if (Xcount.Count == 0)
+                    {
+                        break;
+                    }
+
                     //down
                     if (x + 1 != H - 1)
                     {
                         NewMethod(H, W, inputArray, x, y, MyEnum.down, number);
+                    }
+
+                    if (Xcount.Count == 0)
+                    {
+                        break;
                     }
 
                     // left
@@ -118,10 +123,20 @@ namespace paiza.B
                         NewMethod(H, W, inputArray, x, y, MyEnum.left, number);
                     }
 
+                    if (Xcount.Count == 0)
+                    {
+                        break;
+                    }
+
                     // right
                     if (y + 1 != W - 1)
                     {
                         NewMethod(H, W, inputArray, x, y, MyEnum.right, number);
+                    }
+
+                    if (Xcount.Count == 0)
+                    {
+                        break;
                     }
                 }
 
