@@ -49,6 +49,7 @@
     <Compile Include="B\B006.cs" />
     <Compile Include="B\B008.cs" />
     <Compile Include="B\B009.cs" />
+    <Compile Include="B\B010.cs" />
     <Compile Include="B\B012.cs" />
     <Compile Include="B\B029.cs" />
     <Compile Include="B\B038.cs" />
