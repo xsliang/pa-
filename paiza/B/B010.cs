@@ -68,7 +68,7 @@ namespace paiza.B
 
                     for (int i = 0; i < 11; i++)
                     {
-                        if (Xa[i] > second && Xa[i] > 55)
+                        if (Xa[i] > second && Xa[i] > 55 && Xa[i] > Xa[U - 1])
                         {
                             none = false;
                             Console.WriteLine(i + 1);
@@ -85,7 +85,7 @@ namespace paiza.B
 
                     for (int i = 0; i < 11; i++)
                     {
-                        if (Xb[i] < second && Xb[i] < 55)
+                        if (Xb[i] < second && Xb[i] < 55 && Xb[i] < Xb[U - 1])
                         {
                             none = false;
                             Console.WriteLine(i + 1);
