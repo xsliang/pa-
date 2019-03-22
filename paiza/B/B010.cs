@@ -10,8 +10,6 @@ namespace paiza.B
     {
         public static void B010Main()
         {
-
-
             try
             {
                 var line1 = System.Console.ReadLine();
