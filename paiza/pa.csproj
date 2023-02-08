@@ -222,7 +222,9 @@
     <Compile Include="D\D162.cs" />
     <Compile Include="D\D170.cs" />
     <Compile Include="D\D172.cs" />
+    <Compile Include="D\D174.cs" />
     <Compile Include="D\D178.cs" />
+    <Compile Include="D\D210.cs" />
     <Compile Include="D\D219.cs" />
     <Compile Include="D\D227.cs" />
     <Compile Include="D\D228.cs" />
