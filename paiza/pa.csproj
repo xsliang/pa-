@@ -227,7 +227,9 @@
     <Compile Include="D\D174.cs" />
     <Compile Include="D\D178.cs" />
     <Compile Include="D\D179.cs" />
+    <Compile Include="D\D182.cs" />
     <Compile Include="D\D185.cs" />
+    <Compile Include="D\D198.cs" />
     <Compile Include="D\D199.cs" />
     <Compile Include="D\D200.cs" />
     <Compile Include="D\D210.cs" />
@@ -235,9 +237,11 @@
     <Compile Include="D\D213.cs" />
     <Compile Include="D\D214.cs" />
     <Compile Include="D\D219.cs" />
+    <Compile Include="D\D221.cs" />
     <Compile Include="D\D226.cs" />
     <Compile Include="D\D227.cs" />
     <Compile Include="D\D228.cs" />
+    <Compile Include="D\D232.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
