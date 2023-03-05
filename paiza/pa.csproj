@@ -107,6 +107,9 @@
     <Compile Include="C\C061.cs" />
     <Compile Include="C\C084.cs" />
     <Compile Include="C\C097.cs" />
+    <Compile Include="C\C099.cs" />
+    <Compile Include="C\C115.cs" />
+    <Compile Include="C\C117.cs" />
     <Compile Include="D\D002.cs" />
     <Compile Include="D\D003.cs" />
     <Compile Include="D\D004.cs" />
