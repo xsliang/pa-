@@ -8,7 +8,7 @@ namespace paiza.D
 {
     public class D178
     {
-        public static void Main() {
+        public static void D178Main() {
             var line = Console.ReadLine();
             int n = int.Parse(line);
             if (n >= 1 && n <= 20) {

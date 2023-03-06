@@ -8,7 +8,7 @@ namespace paiza.D
 {
     public class D174
     {
-        public static void Main()
+        public static void D174Main()
         {
             var line = Console.ReadLine();
             int k = int.Parse(line);

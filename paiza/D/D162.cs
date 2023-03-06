@@ -8,7 +8,7 @@ namespace paiza.D
 {
     public class D162
     {
-        public static void Main()
+        public static void D162Main()
         {
             var line = Console.ReadLine();
             int N = int.Parse(line);

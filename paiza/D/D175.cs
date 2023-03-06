@@ -8,7 +8,7 @@ namespace paiza.D
 {
     class D175
     {
-        public static void Main()
+        public static void D175Main()
         {
             var line = Console.ReadLine();
             if (line=="A")
